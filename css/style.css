@@ -133,9 +133,12 @@ header {
 }
 
 .tbh {
-    margin-top: 0;
-    font-size: 60;
-    margin-bottom: 20px;
+    margin: 0;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 18px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 800;
     letter-spacing: 1.5px;
@@ -175,6 +178,7 @@ header {
     flex: 1 1 288px;
     max-width: 288px;
     margin-bottom: 50px;
+    margin-right: 15px
 }
 
 .servicetbh {
@@ -188,6 +192,7 @@ header {
     font-size: 42px;
     line-height: 55px;
     text-transform: uppercase;
+    margin-bottom: 25px;
 }
 .servicetbp {
     margin: 0;
@@ -209,7 +214,7 @@ header {
     border-radius: 5px;
 }
 
-.tbh {
+.tbhs {
     margin: 0;
     letter-spacing: 1.5px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -217,8 +222,10 @@ header {
     font-size: 22px;
     margin-bottom: 10px;
 }
-
-.tbp {
+.imgs {
+    margin-bottom: 25px;
+}
+.tbps {
     margin: 0;
     line-height: 1.75;
     opacity: 0.7;
@@ -422,7 +429,8 @@ header {
 }
 .subhead {
     max-width: 1249px;
-    margin: 0 0 30px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
     text-align: center;
     color: #fff;
     opacity: 0.8;
